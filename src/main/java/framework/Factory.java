@@ -22,7 +22,7 @@ public class Factory {
 	private static Logger logger = Logger.getGlobal();
 
 	public static List<? extends Object> getPlugin(Class<?> plugin) {
-		List<Object> iplugins = new ArrayList();
+		List<Object> iplugins = new ArrayList<>();
 
 		// Reading the jar location of plugins from a config file (config.txt)
 		URL[] urls = null;
